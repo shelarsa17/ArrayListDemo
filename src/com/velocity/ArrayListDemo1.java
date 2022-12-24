@@ -13,7 +13,9 @@ public class ArrayListDemo1 {
 		list.add("santosh");
 		list.add("sachin");
 		
-		System.out.println(list);
+		for(String s:list) {
+			System.out.println(s);
+		}
 		
 	}
 
